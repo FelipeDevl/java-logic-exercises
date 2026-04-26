@@ -6,7 +6,7 @@ public class InteractiveEvenNumbers {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the total quantity of numbers and it will show only the even numbers: ");
         int quantity = input.nextInt();
-        for (int num = 1; num <= quantity; num++) {
+        for (int num = 1 ; num <= quantity; num++) {
             if (num % 2 == 0) {
                 System.out.println(num);
             }
